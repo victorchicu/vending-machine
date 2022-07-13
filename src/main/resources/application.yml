@@ -1,0 +1,13 @@
+logging:
+  level:
+    root: debug
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/test
+      auto-index-creation: true
+  session:
+    mongodb:
+      collection-name: sessions
+    store-type: mongodb
